@@ -3479,7 +3479,7 @@ func TestCleanLegacyRealServersExcludeCIDRs(t *testing.T) {
 	}
 }
 
-func TestflushList_not_protected(t *testing.T) {
+func Test1(t *testing.T) {
 	ipt := iptablestest.NewFake()
 	ipvs := ipvstest.NewFake()
 	ipset := ipsettest.NewFake(testIPSetVersion)
@@ -3566,7 +3566,7 @@ func TestflushList_not_protected(t *testing.T) {
 	}
 }
 
-func TestflushList_protected(t *testing.T) {
+func Test2(t *testing.T) {
 	ipt := iptablestest.NewFake()
 	ipvs := ipvstest.NewFake()
 	ipset := ipsettest.NewFake(testIPSetVersion)
